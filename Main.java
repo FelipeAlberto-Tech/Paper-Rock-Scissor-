@@ -12,7 +12,7 @@ public class Main {
         int choice = input.nextInt();
         //input your choice
 
-        int Computer = (int)(System.currentTimeMillis() % 2);
+        int Computer = (int)(System.currentTimeMillis() % 3);
         //Computer random system
 
         switch (Computer) {
